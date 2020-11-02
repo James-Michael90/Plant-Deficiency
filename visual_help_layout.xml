@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:text="@string/remember_blue_circle"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textColor="@color/lightBlack"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/button_open_help"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_background"
+        android:text="@string/open_help"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

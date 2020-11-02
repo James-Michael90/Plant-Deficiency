@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/eight_dp">
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/card_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandOnClick="true"
+        android:layout_margin="@dimen/eight_dp"
+        android:background="@color/lightBlack"
+        app:icon="@drawable/ic_menu_share"
+        app:inner_view="@layout/share_card"
+        app:title="Share this App"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

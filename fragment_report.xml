@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/no_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_centerInParent="true"
+        android:text="@string/no_report" />
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_save"
+        android:id="@+id/pdf_viewer"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:minWidth="120dp"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/button_rectangle"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:drawablePadding="-20dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_save"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"/>
+
+
+
+</RelativeLayout>
